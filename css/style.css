@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    margin: 0;
+    position: fixed;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#home {
+    color: #FFF;
+    font-family: Montserrat;
+    background: #9753B2;
+    background: -moz-linear-gradient(-45deg, #9753B2 0%, #9753B2 50%, #80339E 50%, #80339E 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#9753B2), color-stop(50%,#9753B2), color-stop(50%,#80339E), color-stop(100%,#80339E));
+    background: -webkit-linear-gradient(-45deg, #9753B2 0%,#9753B2 50%,#80339E 50%,#80339E 100%);
+    background: -o-linear-gradient(-45deg, #9753B2 0%,#9753B2 50%,#80339E 50%,#80339E 100%);
+    background: -ms-linear-gradient(-45deg, #9753B2 0%,#9753B2 50%,#80339E 50%,#80339E 100%);
+    background: linear-gradient(135deg, #9753B2 0%,#9753B2 50%,#80339E 50%,#80339E 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9753B2', endColorstr='#80339E',GradientType=1 );
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#text {
+    line-height: 40px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+h1 {
+    padding: 0 !important;
+    padding-right: 10px !important;
+}
+
+#text p {
+    margin-top: 0 !important;
+    text-align: justify;
+    padding: 0;
+}
+
+#text p a {
+    color: #FFF;
+    text-decoration: none;
+    border-bottom: 3px solid #3b0052;
+    padding-bottom: 5px;
+}
+
+#text p a:hover {
+    color: #3b0052;
+    border-bottom: 3px solid #3b0052;
+}
+
+#logo {
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+    border: 3px solid #FFF;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+#buttonGroup {
+    margin-top: 30px;
+    padding: 0;
+    padding-bottom: 100px;
+}
+
+.button {
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid #FFF;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 0px;
+    margin-top: 8px;
+    line-height: 50px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button.last {
+    margin-right: 0;
+}
+
+::selection {
+    background: #000;
+    color: #FFF;
+}
+::-moz-selection {
+    background: #000;
+    color: #FFF;
+}
+
+#follow {
+    padding: 0;
+    border: 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+div#follow a.button {
+    padding: 5px 15px !important;
+}
+
+#stuff {
+    margin-bottom: 30px;
+}
+
+#elg-twitter {
+    background: -webkit-linear-gradient(left, #6CDFEA 50%, transparent 50%) repeat scroll right bottom/200% 100% transparent;
+    background: linear-gradient(to right, #6CDFEA 50%, transparent 50%) repeat scroll right bottom/200% 100% transparent;
+}
+
+#elg-facebook {
+    background: -webkit-linear-gradient(left, #3b5998 50%, transparent 50%) repeat scroll right bottom/200% 100% transparent;
+    background: linear-gradient(to right, #3b5998 50%, transparent 50%) repeat scroll right bottom/200% 100% transparent;
+}
+
+#elg-instagram {
+    background: -webkit-linear-gradient(left, #517fa4 50%, transparent 50%) repeat scroll right bottom/200% 100% transparent;
+    background: linear-gradient(to right, #517fa4 50%, transparent 50%) repeat scroll right bottom/200% 100% transparent;
+}
+
+#elg-mail {
+    background: -webkit-linear-gradient(left, #52941e 50%, transparent 50%) repeat scroll right bottom/200% 100% transparent;
+    background: linear-gradient(to right, #52941e 50%, transparent 50%) repeat scroll right bottom/200% 100% transparent;
+}
+
+#elg-github {
+    background: -webkit-linear-gradient(left, #9C7A5B 50%, transparent 50%) repeat scroll right bottom/200% 100% transparent;
+    background: linear-gradient(to right, #9C7A5B 50%, transparent 50%) repeat scroll right bottom/200% 100% transparent;
+}
+
+#elg-googleplus {
+    background: -webkit-linear-gradient(left, #E34429 50%, transparent 50%) repeat scroll right bottom/200% 100% transparent;
+    background: linear-gradient(to right, #E34429 50%, transparent 50%) repeat scroll right bottom/200% 100% transparent;
+}
+
+@media (min-width: 991px) {
+    #share {
+        margin-left: -12px;
+    }
+}
+
+@media (max-width: 991px) {
+    #logo {
+        padding: 0px -12px;
+    }
+    #share {
+        margin-bottom: 40px;
+    }
+}
+
+core-selector span {
+    display: none;
+    opacity: 0;
+    -webkit-animation-duration: 0.5s !important;
+    -moz-animation-duration: 0.5s !important;
+    animation-duration: 0.5s !important;
+}
+core-selector span.core-selected {
+    display: inline-block;
+    opacity: 1;
+}

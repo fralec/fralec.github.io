@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Hello world!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/font-awesome.css"/>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+        <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+        <link rel="stylesheet" href="/css/elegant.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="/js/elegant.js"></script>
+    </head>
+    <body>
+        <div id="home">
+            <div class="row"><div class="col-xs-10 col-xs-push-1 col-sm-10 col-sm-push-1 col-md-2 col-md-push-1" id="logo">Fralec</div></div>
+            <div class="row" id="text">
+                <h1 class="col-xs-10 col-xs-push-1 col-sm-10 col-sm-push-1 col-md-6 col-md-push-3">Hi,</h1>
+                <p class="col-xs-10 col-xs-push-1 col-sm-10 col-sm-push-1 col-md-6 col-md-push-3">My name is <a href="https://blog.fralec.com/" target="_blank">Alec von Barnekow</a>, and I'm an IT student, living in Fribourg, Switzerland. I'm having fun since many years by coding (<i class="fa fa-heart"></i>).
+Some projects are on <a href="https://github.com/fralec/">my Github</a>.
+<br /> Another important point in my life is to study the functioning of democracy and improve it. For example through <a href="https://antipa.ch" target="_blank">antipa</a>.</p>
+            </div>
+            <div id="stuff">
+                <div id="buttonGroup" class="col-xs-10 col-xs-push-1 col-sm-10 col-md-6 col-md-push-3">
+                    <a class="col-xs-12 col-sm-12 col-md-5 button" id="stay">Stay in touch</a>
+                    <a href="https://blog.fralec.com/" target="_blank" class="col-xs-12 col-md-push-2 col-sm-12 col-md-5 button last">My blog</a>
+                </div>
+            </div>
+        </div>
+        <script src="/js/script.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-74617141-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </body>
+</html>
